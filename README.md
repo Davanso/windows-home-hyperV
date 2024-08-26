@@ -17,26 +17,26 @@ Before enabling Hyper-V, ensure your computer supports virtualization:
    systeminfo
 Check for “Hypervisor has been detected.”
 If you don't see this, virtualization might be disabled in your BIOS. Enter your BIOS setup and look for “Intel Virtualization Technology” or “SVM Mode” to enable it.
-📥 Installation Instructions
+## 📥 Installation Instructions
 To install Hyper-V on Windows 10 Home or Single Language:
 
 Download the hyperv_win10.zip file and extract its contents to a folder of your choice.
 
 Right-click on the hyperv_win10.bat file and select “Run as administrator.”
 
-⚠️ Note: The script has been analyzed on VirusTotal using over 60 different antivirus programs and is confirmed to be safe.
+## ⚠️ Note: The script has been analyzed on VirusTotal using over 60 different antivirus programs and is confirmed to be safe.
 
 Wait for the installation to complete.
 
 Press “Y” when prompted to restart your computer.
 
-✅ Verification
+## ✅ Verification
 After your computer restarts, verify the installation of Hyper-V:
 
 Press Windows+R to open the Run dialog.
 Type optionalfeatures and click “OK.”
 In the window that appears, look for "Hyper-V." It should be listed and the checkbox should be checked.
-🚀 Usage
+## 🚀 Usage
 Once Hyper-V is installed, you can start using it:
 
 Open the Start menu and search for “Hyper-V.”
